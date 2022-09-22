@@ -16,9 +16,10 @@
 
 $(call inherit-product, device/google/gs101/aosp_common.mk)
 $(call inherit-product, device/google/bluejay/device-bluejay.mk)
+$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
-PRODUCT_NAME := aosp_bluejay
+PRODUCT_NAME := bliss_bluejay
 PRODUCT_DEVICE := bluejay
-PRODUCT_MODEL := AOSP on Bluejay
-PRODUCT_BRAND := Android
+PRODUCT_MODEL := Pixel 6a
+PRODUCT_BRAND := Google
 PRODUCT_MANUFACTURER := Google
